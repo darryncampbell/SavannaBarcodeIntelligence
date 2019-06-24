@@ -29,6 +29,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         android:backgroundTint="@color/yellow"
+        app:backgroundTint="#00000000"
         app:srcCompat="@drawable/ic_barcode" />
 
 </android.support.design.widget.CoordinatorLayout>

@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         //  Create an instance of the ApiService
         apiService = retrofit.create(ApiService.class);
 
-        clearUI("");
+        clearUI("Please scan an item");
     }
 
     @Override
